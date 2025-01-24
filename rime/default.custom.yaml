@@ -1,0 +1,9 @@
+patch:
+  schema_list:
+    - schema: luna_pinyin_simp
+    - schema: pinyin_simp
+    - schema: terra_pinyin
+  menu/page_size: 7 # 每页显示7个候选字词。
+  switcher:
+    hotkeys:
+      - Control+grave # 激活RIME选单的快捷键，某些版本的RIME支持<F4>为快捷键，容易与其他软件冲突。

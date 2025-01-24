@@ -1,0 +1,37 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/root/Workspace/Code/" . "Lua/")
+ ("/root/Workspace/" . "Code/")
+ ("/root/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/root/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ ".init_font.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/root/.emacs.d/" (26515 28104 32271 477000) ".emacs.custom.el" ".emacs.local/" "./" ".init_font.el" ".init_font.el~" "smex-items" "init.el~" "rime/" "init.el" "transient/" "elpa/" "eln-cache/" "../" ".emacs.rc/" ".emacs.custom.el~" "auto-save-list/")
+
+ ("/root/Workspace/Code/Lua/" (26515 27473 61985 861000) "./" "test.lua" "test.lua~" "../")
+
+ ("/root/Workspace/Code/" (26504 45973 615273 239000) "./" "Lua/" "../")
+
+ ("/root/Workspace/" (26456 4352 35064 559000) "./" "Code/" "../")
+
+ ("/root/" (26515 26794 651511 509000) ".aws/" "dotfiles/" "Workspace/" "测试文本.txt" ".emacs.d/" "./" ".vim/" ".cache/" ".config/" ".bash_history" ".viminfo" ".python_history" "测试文本.txt~" ".bashrc" ".docker/" ".wget-hsts" ".profile" "LICENSE.md" "README.md" ".ssh/" "../" ".launchpadlib/" ".local/" ".motd_shown" ".azure/")
+
+ ("/root/.emacs.d/rime/" (26515 26873 701564 841000) "luna_pinyin.userdb/" "./" "default.custom.yaml" "user.yaml" "../" "installation.yaml" "build/" "default.custom.yaml~")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
