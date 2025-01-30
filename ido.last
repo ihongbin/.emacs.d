@@ -2,6 +2,10 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("c:/msys64/home/bin/" . ".emacs.d/")
+ ("c:/Users/bin/" . "Downloads/")
+ ("c:/Users/" . "bin/")
+ ("c:/" . "Users/")
  ("/root/Workspace/Code/" . "Lua/")
  ("/root/Workspace/" . "Code/")
  ("/root/" . ".emacs.d/")
@@ -9,17 +13,37 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "c:/msys64/home/bin/.emacs.d/"
+ "c:/Users/bin/Documents/records/"
  "/root/.emacs.d/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "readme.md"
+ "org.md"
  "init.el"
  ".init_font.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("c:/Users/bin/Documents/" (26523 24 0 0) "WeChat Files/" "QQPCMgr/" "My Videos/" "My Pictures/" "My Music/" "League of Legends/" "Fonts/" "Downloads/" "desktop.ini" "clash.txt" "Blackmagic Design/" "AutoHotkey/" "../" "./")
+
+ ("c:/Users/bin/Downloads/" (26522 65520 0 0) "WeChatSetup.exe" "msys2-x86_64-20241208.exe" "Intel_LAN(v12.19.1.37b_v2).zip" "Intel_LAN(v12.19.1.37b_v2)/" "desktop.ini" "Clash.for.Windows.Setup.0.20.39.exe" "AutoHotkey_2.0.19_setup.exe" ".accelerate/" "../" "./")
+
+ ("c:/Users/bin/" (26519 13732 0 0) "「开始」菜单/" "Videos/" "Templates/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "Intel/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Creative Cloud Files/" "Cookies/" "Contacts/" "Application Data/" "AppData/" "ansel/" ".Ld2VirtualBox/" ".config/" "../" "./")
+
+ ("c:/Users/" (25636 13930 0 0) "Public/" "desktop.ini" "Default User/" "Default/" "bin/" "All Users/" "../" "./")
+
+ ("c:/msys64/" (26522 62154 0 0) "var/" "usr/" "uninstall.ini" "uninstall.exe" "uninstall.dat" "ucrt64.ini" "ucrt64.ico" "ucrt64.exe" "ucrt64/" "tmp/" "opt/" "network.xml" "msys2_shell.cmd" "msys2.ini" "msys2.ico" "msys2.exe" "mingw64.ini" "mingw64.ico" "mingw64.exe" "mingw64/" "mingw32.ini" "mingw32.ico" "mingw32.exe" "mingw32/" "installerResources/" "installer.dat" "InstallationLog.txt" "home/" "etc/" "dev/" "components.xml" "clangarm64.ini" "clangarm64.ico" "clangarm64.exe" "clangarm64/" "clang64.ini" "clang64.ico" "clang64.exe" "clang64/" "clang32.ini" "clang32.exe" "autorebase.bat" "../" "./")
+
+ ("c:/msys64/home/" (26522 61817 0 0) "bin/" "../" "./")
+
+ ("c:/msys64/home/bin/" (26522 65376 0 0) ".ssh/" ".profile" ".gitconfig" ".emacs.d/" ".bash_profile" ".bash_logout" ".bash_history" ".bashrc" "../" "./")
+
+ ("c:/msys64/home/bin/.emacs.d/" (26523 744 0 0) "transient/" "smex-items" "rime/" "readme.md" "init.el" "ido.last~" "ido.last" "elpa/" "eln-cache/" "auto-save-list/" ".init_font.el" ".gitignore" ".git/" ".emacs.rc/" ".emacs.local/" ".emacs.custom.el" "../" "./")
+
  ("/root/.emacs.d/" (26515 28104 32271 477000) ".emacs.custom.el" ".emacs.local/" "./" ".init_font.el" ".init_font.el~" "smex-items" "init.el~" "rime/" "init.el" "transient/" "elpa/" "eln-cache/" "../" ".emacs.rc/" ".emacs.custom.el~" "auto-save-list/")
 
  ("/root/Workspace/Code/Lua/" (26515 27473 61985 861000) "./" "test.lua" "test.lua~" "../")

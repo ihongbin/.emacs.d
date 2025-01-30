@@ -1,24 +1,26 @@
 
 ;; ----- smex-history -----
 (
- load-file
+ eshell/clear
+ eshell
  toggle-frame-maximized
+ customize-variable
+ load-file
  compile
  lua-mode
- rime-deploy
- rime-open-configuration
- package-list-packages
 )
 
 ;; ----- smex-data -----
 (
  (load-file . 10)
- (customize-variable . 6)
+ (customize-variable . 7)
  (customize-themes . 1)
  (package-list-packages . 2)
  (rime-open-configuration . 3)
  (rime-deploy . 6)
  (lua-mode . 1)
  (compile . 3)
- (toggle-frame-maximized . 6)
+ (toggle-frame-maximized . 7)
+ (eshell . 1)
+ (eshell/clear . 1)
 )

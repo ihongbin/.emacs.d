@@ -11,6 +11,7 @@
 (menu-bar-mode 0)
 (scroll-bar-mode 0)
 (global-display-line-numbers-mode t)
+(setq inhibit-startup-screen t)
 
 (add-hook 'window-setup-hook 'toggle-frame-maximized t)
 (add-to-list 'initial-frame-alist '(fullscreen . maximized))
@@ -110,8 +111,8 @@
  'typescript-mode
  )
 
-(use-package rime
-  :custom
-  (default-input-method "rime"))
+;;(use-package rime
+;;  :custom
+;;  (default-input-method "rime"))
 
 (load-file custom-file)
